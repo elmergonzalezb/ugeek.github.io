@@ -1,0 +1,137 @@
+#################################################################################################################
+#POST PUBLICATION PROGRAMMING
+#################################################################################################################
+
+# POST PROGRAM SCHEDULE
+PROGRAMS_ORG="$HOME/docker/git/ugeek.github.io/program.org"
+
+# BLOG FILE
+BLOG_ORG="$HOME/docker/git/ugeek.github.io/podcast.org"
+
+# BLOG FOLDER
+PATH_BLOG="$HOME/docker/git/ugeek.github.io/"
+
+# ORG-BASH-PODCAST 
+ORG_BASH_BLOG="$HOME/docker/git/ugeek.github.io/org-bash-podcast"
+
+# CONFIG FILES
+PATH_SCRIPTS_PROGRAMS="$HOME/.config/org-bash-podcast/"
+
+# PUBLISH METHOD (Put the method of publication you use. Here is a post using git. If you don't want to post, don't put anything) 
+PUBLISH="git -C $PATH_BLOG add  . ; git -C $PATH_BLOG commit -m 'publish post' ; git -C $PATH_BLOG push"
+
+
+
+
+TITLE_POST=$(wget -qO- https://ugeek.github.io/blog/feed.xml  | xml2 | grep "/rss/channel/item/title=" | sed -e 's|/rss/channel/item/title=||g')
+URL=$(wget -qO- https://ugeek.github.io/blog/feed.xml   | xml2 | grep "/rss/channel/item/link=" | sed -e 's|/rss/channel/item/link=||g')
+#IMG=$(wget -qO- https://ugeek.github.io/blog/feed.xml  | xml2 | grep "/rss/channel/item/description=<img src="  | sed -e 's|/rss/channel/item/description=||g')
+#echo "* Últimos Artículos Publicados" >> index.org
+#echo "#+html: $(echo "$IMG" | awk '{if(NR==1) print $0}')  $(echo "$IMG" | awk '{if(NR==2) print $0}')   $(echo "$IMG" | awk '{if(NR==3) print $0}')   $(echo "$IMG" | awk '{if(NR==4) print $0}')" >> index.org
+ARTICULOS_WEB=$(echo "* Últimos Artículos                                                                                                                          
+- [[$(echo "$URL" | awk '{if(NR==1) print $0}' )][$(echo "$TITLE_POST" | awk '{if(NR==1) print $0}' )]]                                                                            
+- [[$(echo "$URL" | awk '{if(NR==2) print $0}' )][$(echo "$TITLE_POST" | awk '{if(NR==2) print $0}' )]]                                                                            
+- [[$(echo "$URL" | awk '{if(NR==3) print $0}' )][$(echo "$TITLE_POST" | awk '{if(NR==3) print $0}' )]]                                                                            
+- [[$(echo "$URL" | awk '{if(NR==4) print $0}' )][$(echo "$TITLE_POST" | awk '{if(NR==4) print $0}' )]]                                                                            
+- [[$(echo "$URL" | awk '{if(NR==5) print $0}' )][$(echo "$TITLE_POST" | awk '{if(NR==5) print $0}' )]]")
+
+
+
+
+# BROWSER
+BROWSER=""
+#BROWSER="firefox"         # Browser to open page
+TWITTER="@ugeekpodcast"   # nick twitter
+LANGUAGE="es_ES"          
+GOOGLE_ANALITYCS="UA-131560140-1"
+
+# RSS
+LOGO_FEED="https://ugeek.github.io/ugeek.png"
+ICON="https://ugeek.github.io/icon/ugeek-256x256.png"
+IMAGE="https://ugeek.github.io/icon/ugeek.png"
+LANGUAGE_RSS="es"
+FEED="https://anchor.fm/s/106db04/podcast/rss"
+
+# HEAD PAGE INDEX, LIST, TAG
+HEAD_PAGE=$(echo '
+<link href="'http://fonts.googleapis.com/css?family=Lato'" rel="'stylesheet'" type="'text/css'"/>
+
+<div id="name"><a href="https://ugeek.github.io/blog/"><tt>Blog de Tecnología</tt></div></a>
+
+<div id="icon">
+<a href="http://feeds.feedburner.com/uGeek" title="rss" alt="rss"><img src="./icon/podcast.png"  width="25" height="25" alt="podcast"></a>&nbsp;&nbsp;
+<a href="http://feeds.feedburner.com/uGeekBlog" alt="rss"><img src="./icon/rss.png"  width="25" height="25"></a>&nbsp;&nbsp;
+<a href="https://github.com/ugeek"><img src="./icon/github.png"  width="25" height="25" alt="GitHub"></a>&nbsp;&nbsp;
+<a href="https://hub.docker.com/search?q=ugeek&type=image" alt="rss"><img src="./icon/docker.png"  width="25" height="25"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/ugeekpodcast"><img src="./icon/twitter.png"  width="25" height="25" alt="Twitter"></a>&nbsp;&nbsp;
+<a href="https://t.me/uGeek"><img src="./icon/telegram.png"  width="25" height="25" alt="Telegram"></a></div>
+
+<div id="menu">
+<a href="https://ugeek.github.io/blog/list.html"><tt>Artículos</tt></a>&nbsp;&nbsp;
+<a href="https://ugeek.github.io/list.html"><tt>Podcasts</tt></a>&nbsp;&nbsp;
+<a href="https://ugeek.github.io/tag.html"><tt>Tags</tt></a></div>')
+
+# HEAD POST PAGE
+HEAD_PAGE_POST=$(echo '
+<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"/>
+
+<div id="name"><a href="https://ugeek.github.io/blog/"><tt>Blog de Tecnología</tt></div></a>
+
+<div id="icon">
+<a href="http://feeds.feedburner.com/uGeek" title="rss" alt="rss"><img src="../icon/podcast.png"  width="25" height="25" alt="podcast"></a>&nbsp;&nbsp;
+<a href="http://feeds.feedburner.com/uGeekBlog" alt="rss"><img src="../icon/rss.png"  width="25" height="25"></a>&nbsp;&nbsp;
+<a href="https://github.com/ugeek"><img src="../icon/github.png"  width="25" height="25" alt="GitHub"></a>&nbsp;&nbsp;
+<a href="https://hub.docker.com/search?q=ugeek&type=image" alt="rss"><img src="../icon/docker.png"  width="25" height="25"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/ugeekpodcast"><img src="../icon/twitter.png"  width="25" height="25" alt="Twitter"></a>&nbsp;&nbsp;
+<a href="https://t.me/uGeek"><img src="../icon/telegram.png"  width="25" height="25" alt="Telegram"></a></div>
+
+<div id="menu">
+<a href="https://ugeek.github.io/blog/list.html"><tt>Artículos</tt></a>&nbsp;&nbsp;
+<a href="https://ugeek.github.io/list.html"><tt>Podcasts</tt></a>&nbsp;&nbsp;
+<a href="https://ugeek.github.io/tag.html"><tt>Tags</tt></a></div>')
+
+################################################################################
+# MAIN CONTENT. INDEX PAGE
+INDEX=$(echo "Bienvenido al Blog del Podcast de **uGeek**. Aquí encontraras tutoriales y notas que voy tomando en el proceso de aprendizaje de todo aquello que os explico en el [[https://ugeek.github.io][Podcast]]. En la sección [[https://ugeek.github.io/tag.html][Tags]], encontraras todos los Artículos y Podcast, clasificados por temáticas.
+
+También puedes encontra mis aplicaciones desarrolladas en bash : [[https://ugeek.github.io/dockerc][dockerc]], [[https://ugeek.github.io/wgc][wgc]],
+ [[https://ugeek.github.io/org-bash-blog/][org-bash-blog]], [[https://ugeek.github.io/org-bash-podcast/][org-bash-podcast]], [[https://ugeek.github.io/todo.txt-sync/][todo.txt-sync]]... 
+
+$ARTICULOS_WEB
+")
+
+#BLOG
+ULTIMO_TITULO_PODCAST=$(wget -qO- https://anchor.fm/s/106db04/podcast/rss | xml2 | grep "/rss/channel/item/title=" | sed -e 's|/rss/channel/item/title=||g' | head -1)
+ULTIMO_PODCAST=$(wget -qO- https://anchor.fm/s/106db04/podcast/rss  | xml2 | grep "/rss/channel/item/enclosure/@url=" | sed -e 's|/rss/channel/item/enclosure/@url=||g' | head -1)
+
+# MAIN CONTENT NEXT. INDEX PAGE
+INDEX_NEXT=$(echo "
+** $ULTIMO_TITULO_PODCAST
+#+HTML: <audio controls=''><source src="$ULTIMO_PODCAST" />Tu navegador no soporta reproductor de Podcast.</audio>
+
+$(cat /home/marc/docker/git/blog/indice.org)                                                             
+#+html:<h4><center> </center></h4><br>                                                         
+"$(cat /home/marc/docker/git/blog/categories.org)"
+")
+
+
+
+
+################################################################################
+# FOOTER WEB. ALL PAGES
+PIE_WEB=$(echo '<p style="text-align: center;"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img style="border-width: 0px; display: block; margin-left: auto; margin-right: auto;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licencia de Creative Commons" /></a><br />Este obra est&aacute; bajo una <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>.</p><br><br><br>')
+
+
+
+# ITUNES
+ITUNES_DESCRIPTION="Podcast de Tecnología"
+ITUNES_NAME="uGeek"
+ITUNES_EMAIL="ugeekpodcast@gmail.com"
+ITUNES_EXPLICIT="No"
+ITUNES_KEYWORDS="Tecnología,Linux"
+ITUNES_IMAGE="https://ugeek.github.io/blog/icon/ugeek.png"
+ITUNES_LOCATION="Barcelona, Spain"
+ITUNES_FREQUENCY="Weekly"
+ITUNES_CATEGORY="Technology"
+COPYRIGHT="Angel uGeek. copyright 2019"
+
