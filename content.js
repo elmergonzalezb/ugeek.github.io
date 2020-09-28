@@ -1,3 +1,4 @@
+var tipuesearch = {pages: [
 
 {
             'title': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,',
@@ -2390,3 +2391,4 @@
             'url': 'https://ugeek.github.io/blog/post/2018-12-27-eliminar-lineas-en-blanco.html' 
 },
 
+]};
