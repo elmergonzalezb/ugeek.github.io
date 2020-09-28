@@ -6,24 +6,6 @@ var tipuesearch = {pages: [
             'url': 'https://ugeek.github.io/post/2020-09-28-ahora-si!-arrancando-mi-raspberry-4-desde-un-ssd.html' 
 },
 {
-            'title': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,',
-            'text': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,', 
-            'tags': 'terminal,bash,,,,', 
-            'url': 'https://ugeek.github.io/post/2020-09-28-ahora-si!-arrancando-mi-raspberry-4-desde-un-ssd.html' 
-},
-{
-            'title': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,',
-            'text': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,', 
-            'tags': 'terminal,bash,,,,', 
-            'url': 'https://ugeek.github.io/post/2020-09-28-ahora-si!-arrancando-mi-raspberry-4-desde-un-ssd.html' 
-},
-{
-            'title': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,',
-            'text': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,', 
-            'tags': 'terminal,bash,,,,', 
-            'url': 'https://ugeek.github.io/post/2020-09-28-ahora-si!-arrancando-mi-raspberry-4-desde-un-ssd.html' 
-},
-{
             'title': 'Compartiendo archivos, directorios o texto con croc,',
             'text': 'Artículo: https://ugeek.github.io/blog/post/2020-09-20-croc-la-aplicacion-que-nos-permite-enviar-o-compartir-archivos-directorios-texto--a-cualquier-dispositivo-este-donde-este-de-un-modo-facil-con-la-terminal.html,', 
             'tags': 'terminal,bash,,,,', 
