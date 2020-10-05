@@ -1,3 +1,4 @@
+var tipuesearch = {pages: [
 
 {
             'title': 'Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...,',
@@ -2396,3 +2397,4 @@
             'url': 'https://ugeek.github.io/blog/post/2018-12-27-eliminar-lineas-en-blanco.html' 
 },
 
+]};
