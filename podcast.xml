@@ -22,8 +22,35 @@
     <rawvoice:location>Barcelona, Spain</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
     <itunes:category text="Technology"/>
-    <pubDate>Mon, 05 Oct 2020 19:55 +0100</pubDate>
+    <pubDate>Mon, 05 Oct 2020 20:01 +0100</pubDate>
     <generator>org-bash-podcast static site generator (https://github.com/ugeek/org-bash-podcast)</generator>
+   <item>
+    <title>Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...</title>
+    <link>https://ugeek.github.io/post/2020-10-05-xiaomi-mi-smart-band-4c-no-es-tan-mala-como-la-pintan--.html</link>
+    <pubDate>Mon, 05 Oct 2020 20:44 +0100</pubDate>
+    <description>Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...
+&lt;p&gt;Sigue leyendo el post completo de &lt;a href=https://ugeek.github.io/post/2020-10-05-xiaomi-mi-smart-band-4c-no-es-tan-mala-como-la-pintan--.html&gt;Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...&lt;/a&gt;
+
+&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
+
+&lt;a href=https://ugeek.github.io&gt;Visita uGeek Podcast&lt;/a&gt;
+
+&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
+
+&lt;a href=https://ugeek.github.io&gt;Visita uGeek Podcast&lt;/a&gt;
+
+&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
+
+&lt;a href=http://feeds.feedburner.com/ugeek&gt;Suscribete al Podcast de uGeek&lt;/a&gt;
+
+</description>
+    <enclosure url="https://anchor.fm/s/106db04/podcast/play/20653440/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-9-5%2Fc03ce492-03f3-3e24-d438-c5591acb53c2.mp3"/>
+    <guid>https://ugeek.github.io/post/2020-10-05-xiaomi-mi-smart-band-4c-no-es-tan-mala-como-la-pintan--.html</guid> 
+          <itunes:summary>Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...</itunes:summary>
+          <itunes:image href="https://ugeek.github.io/blog/icon/ugeek.png"/>  
+          <itunes:keywords>,,,,</itunes:keywords>
+          <itunes:explicit>No</itunes:explicit>
+   </item>
    <item>
     <title>Ahora SI! Arrancando mi Raspberry 4 desde un SSD</title>
     <link>https://ugeek.github.io/post/2020-09-28-ahora-si!-arrancando-mi-raspberry-4-desde-un-ssd.html</link>

@@ -1,5 +1,11 @@
 var tipuesearch = {pages: [
 {
+            'title': 'Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...,',
+            'text': 'Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...,', 
+            'tags': 'terminal,bash,,,,', 
+            'url': 'https://ugeek.github.io/post/2020-10-05-xiaomi-mi-smart-band-4c-no-es-tan-mala-como-la-pintan--.html' 
+},
+{
             'title': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,',
             'text': 'Ahora SI! Arrancando mi Raspberry 4 desde un SSD,', 
             'tags': 'terminal,bash,,,,', 
