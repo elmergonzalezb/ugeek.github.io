@@ -1,5 +1,11 @@
 var tipuesearch = {pages: [
 {
+            'title': 'El sustituto natural a Google Keep de Software Libre,',
+            'text': 'El sustituto natural a Google Keep de Software Libre. Carnet. https://github.com/CarnetApp/CarnetNextcloud ,', 
+            'tags': 'terminal,bash,,,,', 
+            'url': 'https://ugeek.github.io/post/2020-10-19-el-sustituto-natural-a-google-keep-de-software-libre.html' 
+},
+{
             'title': 'Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...,',
             'text': 'Xiaomi Mi Smart Band 4c. No es tan mala como la pintan...,', 
             'tags': 'terminal,bash,,,,', 
