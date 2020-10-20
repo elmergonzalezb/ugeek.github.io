@@ -3,6 +3,12 @@ var tipuesearch = {pages: [
             'title': 'El sustituto natural a Google Keep de Software Libre,',
             'text': 'El sustituto natural a Google Keep de Software Libre. Carnet. https://github.com/CarnetApp/CarnetNextcloud ,', 
             'tags': 'terminal,bash,,,,', 
+            'url': 'https://ugeek.github.io/post/2020-10-20-el-sustituto-natural-a-google-keep-de-software-libre.html' 
+},
+{
+            'title': 'El sustituto natural a Google Keep de Software Libre,',
+            'text': 'El sustituto natural a Google Keep de Software Libre. Carnet. https://github.com/CarnetApp/CarnetNextcloud ,', 
+            'tags': 'terminal,bash,,,,', 
             'url': 'https://ugeek.github.io/post/2020-10-19-el-sustituto-natural-a-google-keep-de-software-libre.html' 
 },
 {
