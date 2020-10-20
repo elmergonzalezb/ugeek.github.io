@@ -1,3 +1,4 @@
+var tipuesearch = {pages: [
 
 {
             'title': 'El sustituto natural a Google Keep de Software Libre,',
@@ -2438,3 +2439,4 @@
             'url': 'https://ugeek.github.io/blog/post/2018-12-27-eliminar-lineas-en-blanco.html' 
 },
 
+]};
