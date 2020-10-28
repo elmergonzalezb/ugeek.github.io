@@ -22,35 +22,8 @@
     <rawvoice:location>Barcelona, Spain</rawvoice:location>
     <rawvoice:frequency>Weekly</rawvoice:frequency>
     <itunes:category text="Technology"/>
-    <pubDate>Wed, 28 Oct 2020 20:02 +0100</pubDate>
+    <pubDate>Wed, 28 Oct 2020 20:12 +0100</pubDate>
     <generator>org-bash-podcast static site generator (https://github.com/ugeek/org-bash-podcast)</generator>
-   <item>
-    <title>s-screen. Procesos en segundo plano de un modo sencillo</title>
-    <link>https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html</link>
-    <pubDate>Wed, 28 Oct 2020 20:44 +0100</pubDate>
-    <description>Procesos en segundo plano de un modo sencillo
-&lt;p&gt;Sigue leyendo el post completo de &lt;a href=https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html&gt;s-screen. Procesos en segundo plano de un modo sencillo&lt;/a&gt;
-
-&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
-
-&lt;a href=https://ugeek.github.io&gt;Visita uGeek Podcast&lt;/a&gt;
-
-&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
-
-&lt;a href=https://ugeek.github.io&gt;Visita uGeek Podcast&lt;/a&gt;
-
-&lt;/a&gt;&lt;/p&gt;&lt;p&gt;
-
-&lt;a href=http://feeds.feedburner.com/ugeek&gt;Suscribete al Podcast de uGeek&lt;/a&gt;
-
-</description>
-    <enclosure url="https://anchor.fm/s/106db04/podcast/play/21774890/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2020-9-28%2F68d9c13c-cc2d-4440-fb8a-c02725bab607.mp3"/>
-    <guid>https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html</guid> 
-          <itunes:summary>Procesos en segundo plano de un modo sencillo</itunes:summary>
-          <itunes:image href="https://ugeek.github.io/blog/icon/ugeek.png"/>  
-          <itunes:keywords>,,,,</itunes:keywords>
-          <itunes:explicit>No</itunes:explicit>
-   </item>
    <item>
     <title>s-screen. Procesos en segundo plano de un modo sencillo</title>
     <link>https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html</link>
