@@ -6,6 +6,12 @@ var tipuesearch = {pages: [
             'url': 'https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html' 
 },
 {
+            'title': 's-screen. Procesos en segundo plano de un modo sencillo,',
+            'text': 'Procesos en segundo plano de un modo sencillo,', 
+            'tags': 'terminal,bash,,,,', 
+            'url': 'https://ugeek.github.io/post/2020-10-28-s-screen-procesos-en-segundo-plano-de-un-modo-sencillo.html' 
+},
+{
             'title': 'El sustituto natural a Google Keep de Software Libre,',
             'text': 'El sustituto natural a Google Keep de Software Libre. Carnet. https://github.com/CarnetApp/CarnetNextcloud ,', 
             'tags': 'terminal,bash,,,,', 
