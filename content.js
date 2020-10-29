@@ -1,3 +1,4 @@
+var tipuesearch = {pages: [
 
 {
             'title': 's-screen. Procesos en segundo plano de un modo sencillo,',
@@ -2462,3 +2463,4 @@
             'url': 'https://ugeek.github.io/blog/post/2018-12-27-eliminar-lineas-en-blanco.html' 
 },
 
+]};
